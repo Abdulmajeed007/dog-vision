@@ -13,7 +13,8 @@ IMG_SIZE = 224
 def load():
     model =tf_keras.models.load_model(
     "dog_vision_model.h5",
-    custom_objects = {"KerasLayer":hub.KerasLayer)
+    custom_objects = {"KerasLayer":hub.KerasLayer},
+    )
     
     with open("labels.txt") as f:
         labels = [l.strip() for l in f if l.strip()]
