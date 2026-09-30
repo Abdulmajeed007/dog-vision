@@ -4,3 +4,4 @@ tf_keras
 tensorflow_hub
 pillow
 numpy
+setuptools<81
