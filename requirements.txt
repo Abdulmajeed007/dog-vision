@@ -1,0 +1,6 @@
+streamlit
+tensorflow
+tf_keras
+tensorflow_hub
+pillow
+numpy
